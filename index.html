@@ -1,60 +1,219 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Toolory – Free PDF & Writing Tools Online</title>
-  <meta name="description" content="Use free PDF & Writing tools online at Toolory. Convert PDF to Word, Word to PDF, Merge, Split, Paraphrase, Grammar Checker & Summarizer. No signup required.">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Toolory — Premium Free PDF & Writing Tools Online</title>
+  <meta name="description" content="Toolory — Fast, secure & free PDF and Writing tools. Convert PDF↔Word, Merge & Split PDFs, Paraphrase, Grammar Check and Summarize. No signup." />
+  <meta name="robots" content="index,follow" />
+  <link rel="canonical" href="https://toolory.online/" />
+  <!-- Open Graph -->
+  <meta property="og:title" content="Toolory — Free PDF & Writing Tools" />
+  <meta property="og:description" content="Convert, merge, split PDFs and improve text with paraphrase, grammar and summarizer tools. No signup required." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://toolory.online/" />
+  <meta property="og:image" content="https://toolory.online/og-image.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 
-  <!-- SEO -->
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://toolory.online" />
+  <!-- AD: Replace ca-pub-XXXXXXXX with your client id -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXXXXXXX" crossorigin="anonymous"></script>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="style.css" />
+  <!-- Structured data (JSON-LD) -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Toolory",
+    "url":"https://toolory.online",
+    "description":"Free online PDF and Writing tools — convert, merge, paraphrase, check grammar and summarize text."
+  }
+  </script>
 </head>
 <body>
-  <!-- Header -->
-  <header>
-    <h1>Toolory</h1>
-    <p>Free Online PDF & Writing Tools – No Signup Needed</p>
-    <!-- Banner Ad Placeholder -->
-    <div class="ad-banner">
-      <!-- Replace with AdSense code -->
-      <p>[AdSense Banner Ad Here]</p>
-    </div>
-  </header>
+  <div class="site-wrap">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">
+          <div class="logo-mark" aria-hidden="true">T</div>
+          <div>
+            <h1>Toolory</h1>
+            <p class="tag">Free PDF & Writing Tools — No Signup</p>
+          </div>
+        </div>
 
-  <!-- Categories -->
-  <main>
-    <section>
-      <h2>📑 PDF Tools</h2>
-      <div class="tools-grid">
-        <a href="#" onclick="openTool('pdfToWord')">PDF to Word Converter</a>
-        <a href="#" onclick="openTool('wordToPdf')">Word to PDF Converter</a>
-        <a href="#" onclick="openTool('pdfMerge')">PDF Merge</a>
-        <a href="#" onclick="openTool('pdfSplit')">PDF Split</a>
+        <nav class="nav">
+          <a href="#pdf">PDF Tools</a>
+          <a href="#writing">Writing Tools</a>
+          <button id="themeToggle" class="btn btn-ghost" aria-label="Toggle theme">🌙</button>
+        </nav>
       </div>
-    </section>
 
-    <section>
-      <h2>📝 Writing Tools</h2>
-      <div class="tools-grid">
-        <a href="#" onclick="openTool('paraphrase')">Paraphrasing Tool</a>
-        <a href="#" onclick="openTool('grammar')">Grammar Checker</a>
-        <a href="#" onclick="openTool('summarize')">Text Summarizer</a>
+      <!-- Top Banner Ad -->
+      <div class="ad-slot ad-top">
+        <!-- Replace data-ad-slot with your Ad Unit ID -->
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXX"
+             data-ad-slot="YOUR-BANNER-SLOT-ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
       </div>
-    </section>
-  </main>
+    </header>
 
-  <!-- Bottom Ad -->
-  <footer>
-    <div class="ad-footer">
-      <!-- Replace with AdSense code -->
-      <p>[AdSense Footer Ad Here]</p>
-    </div>
-    <p>© 2025 Toolory – Free Online Tools</p>
-  </footer>
+    <main class="container">
+      <section class="hero">
+        <div class="hero-left">
+          <h2>Fast, secure and free tools for documents & writing.</h2>
+          <p>Convert PDFs, merge/split files, paraphrase text, check grammar and summarize articles — instantly and without signup.</p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#pdf">Use Tools</a>
+            <a class="btn btn-outline" href="#writing">Explore Writing Tools</a>
+          </div>
+        </div>
+        <div class="hero-right">
+          <div class="hero-card">
+            <strong>Popular:</strong>
+            <ul>
+              <li>PDF → Word</li>
+              <li>Merge PDFs</li>
+              <li>Paraphraser</li>
+              <li>Grammar Check</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- PDF Tools -->
+      <section id="pdf" class="tools-section">
+        <div class="section-head">
+          <h3>📑 PDF Tools</h3>
+          <p class="muted">Everything you need to manage PDFs — convert, merge, and split quickly.</p>
+        </div>
+
+        <div class="tools-grid">
+          <article class="tool-card">
+            <h4>PDF → Word</h4>
+            <p>Upload PDF and download a .docx with extracted text.</p>
+            <div class="card-actions">
+              <label class="btn-file">
+                <input id="pdfToWordInput" type="file" accept="application/pdf">
+                <span class="btn">Upload & Convert</span>
+              </label>
+              <button class="btn btn-ghost" onclick="openDocs('pdfToWord')">Docs</button>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <h4>Word → PDF</h4>
+            <p>Upload .docx and receive a PDF file.</p>
+            <div class="card-actions">
+              <label class="btn-file">
+                <input id="wordToPdfInput" type="file" accept=".doc,.docx,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document">
+                <span class="btn">Upload & Convert</span>
+              </label>
+              <button class="btn btn-ghost" onclick="openDocs('wordToPdf')">Docs</button>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <h4>Merge PDFs</h4>
+            <p>Combine multiple PDFs into one file.</p>
+            <div class="card-actions">
+              <label class="btn-file">
+                <input id="mergePdfInput" type="file" accept="application/pdf" multiple>
+                <span class="btn">Select & Merge</span>
+              </label>
+            </div>
+          </article>
+
+          <article class="tool-card">
+            <h4>Split PDF</h4>
+            <p>Extract pages or split PDF into parts.</p>
+            <div class="card-actions">
+              <label class="btn-file">
+                <input id="splitPdfInput" type="file" accept="application/pdf">
+                <span class="btn">Upload & Split</span>
+              </label>
+              <input id="splitPages" type="text" placeholder="pages (eg. 1,3-5)" class="small-input">
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Inline Rectangle Ad -->
+      <div class="ad-slot ad-inline">
+        <ins class="adsbygoogle"
+             style="display:block"
+             data-ad-client="ca-pub-XXXXXXXXXXXX"
+             data-ad-slot="YOUR-RECT-SLOT-ID"
+             data-ad-format="auto"
+             data-full-width-responsive="true"></ins>
+        <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+      </div>
+
+      <!-- Writing Tools -->
+      <section id="writing" class="tools-section">
+        <div class="section-head">
+          <h3>📝 Writing Tools</h3>
+          <p class="muted">Improve, reword and summarize your text with quick, offline-friendly algorithms.</p>
+        </div>
+
+        <div class="tools-grid">
+          <article class="tool-card large">
+            <h4>Paraphrasing Tool</h4>
+            <textarea id="paraInput" placeholder="Paste text here..." rows="6"></textarea>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="doParaphrase()">Paraphrase</button>
+              <button class="btn btn-ghost" onclick="copyOutput('paraOutput')">Copy</button>
+            </div>
+            <textarea id="paraOutput" rows="5" readonly placeholder="Result will appear here..."></textarea>
+          </article>
+
+          <article class="tool-card large">
+            <h4>Grammar Checker</h4>
+            <textarea id="grammarInput" placeholder="Paste text here..." rows="6"></textarea>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="doGrammar()">Check Grammar</button>
+            </div>
+            <div id="grammarResult" class="result-box"></div>
+          </article>
+
+          <article class="tool-card large">
+            <h4>Text Summarizer</h4>
+            <textarea id="sumInput" placeholder="Paste long article or text..." rows="6"></textarea>
+            <div class="card-actions">
+              <button class="btn btn-primary" onclick="doSummarize()">Summarize</button>
+            </div>
+            <textarea id="sumOutput" rows="4" readonly placeholder="Summary will appear here..."></textarea>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer with small ad -->
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-left">
+          <p>© <span id="year"></span> Toolory — Free tools. Privacy friendly.</p>
+        </div>
+        <div class="footer-right">
+          <div class="ad-slot small-ad">
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-XXXXXXXXXXXX"
+                 data-ad-slot="YOUR-FOOTER-SLOT-ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+            <script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
 
   <script src="script.js"></script>
 </body>
