@@ -1,0 +1,12 @@
+{
+  "name": "toolory",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "netlify dev"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.19.1",
+    "parse-multipart": "^1.0.0"
+  }
+}
